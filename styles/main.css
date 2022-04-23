@@ -1,0 +1,28 @@
+.add_boarder {
+    boarder: 5px solid black;
+}
+body{
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+h2{
+    font: bold
+}
+header,
+main,
+footer{
+    max-width: 760px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif
+}
+header,
+footer{
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: rgb(30, 191, 228);
+}
+header img{
+    float: right;
+    height: 300px;
+}
