@@ -36,3 +36,9 @@ myarray.forEach(makelist)
 if (year==2022) {
     console.log('current year');
 }
+
+
+let date = new Date();
+let year = date.getFullYear();
+
+document.querySelector('#year')
