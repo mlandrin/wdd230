@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Water+Brush&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.addborder
+
+h1 {
+    font-family: 'Water Brush';
+}
+p {
+    font-family: 'Moserrat';
+}
+
+
+/* Week 2 CSS */
+
+.box {
+    height: 500px;
+    width: 100%;
+    background-color: lightblue;
+    border: 4px solid black;
+    margin 0 auto
+
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin: 50px;
+    justify-items: center;
+}
+
+/* Media vs Flex box */
+@media only screen and (max-width: 1000 px) {
+    #grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .box:nth-of-type(3) {
+        grid-column: 1/3;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #grid {
+        grid-template-columns: 1fr;
+    }
+    .box:nth-of-type(3) {
+        grid-column: 1/2;
+        width: 100%;    
+}
+/* Flex box */
+
+#grid {
+    diplay: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
