@@ -56,8 +56,8 @@ p {
 }
 /* Flex box */
 
-#grid {
+/* #grid {
     diplay: flex;
     flex-wrap: wrap;
     gap: 30px;
-}
+} */
