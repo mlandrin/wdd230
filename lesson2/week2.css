@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Water+Brush&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
 
 h1{
@@ -62,7 +61,7 @@ img {
 }
 
 .box {
-    height: 900px;
+    height: auto;
     max-width: 100%;
     background-color: rgba(208, 206, 206, 0.979); 
     color: black;
