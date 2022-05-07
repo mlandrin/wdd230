@@ -56,9 +56,16 @@ main{
     text-align: center;
     background-color: white;
 }
-body{
-    background-color: #3D405B;
+footer{
+    text-align: center;
+    background-color: #BAC7CA;
+    margin-left: 250px;
+    margin-right: 250px;
 }
+body{
+    background-color: rgb(163, 125, 125);
+}
+
 .color1 {
     color: #090A0B;
 
@@ -76,11 +83,11 @@ body{
     background-color: #F2CC8F;
 }
 .font1 {
-    font-style: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .font2 {
-    font-style: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .font3 {
-    font-style: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
