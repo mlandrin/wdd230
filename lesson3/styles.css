@@ -10,7 +10,7 @@
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.9);
     width: 200px;
  } */
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Raleway:ital,wght@1,300&family=Roboto:wght@700&display=swap');
 
 nav ul {
     display: flex;
@@ -34,11 +34,38 @@ nav li a{
 
 section{
     border: 3px solid black;
-    background-color: aquamarine;
+    background-color: #81B29A;
 }
 
 @media screen and (min-width: 900px) {
     nav ul{
         flex-direction: row;
     }
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 150px;
+}
+main{
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+body{
+    background-color: #3D405B;
+}
+.color1 {
+    color: #090A0B;
+
+}
+.color2 {
+    color:#81B29A;
+}
+.color3 {
+    
 }
