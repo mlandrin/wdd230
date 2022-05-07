@@ -64,8 +64,23 @@ body{
 
 }
 .color2 {
-    color:#81B29A;
+    background-color:#81B29A;
 }
 .color3 {
-    
+    background-color:#3D405B;
+}
+.color4 {
+    background-color: #F4F1DE;
+}
+.color5 {
+    background-color: #F2CC8F;
+}
+.font1 {
+    font-style: 'Roboto', sans-serif;
+}
+.font2 {
+    font-style: 'Poppins', sans-serif;
+}
+.font3 {
+    font-style: 'Raleway', sans-serif;
 }
