@@ -65,6 +65,10 @@ footer{
 body{
     background-color: rgb(163, 125, 125);
 }
+.typo{
+    font-style: oblique;
+    color: rgb(67, 66, 66);
+}
 
 .color1 {
     color: #090A0B;
