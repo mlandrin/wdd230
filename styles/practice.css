@@ -1,4 +1,23 @@
-.class{
+.newstyle {
+    background-color: red;
+}
+
+.responsive li {
+    display: block;
+}
+li:first-child{
+    display: block;
+}
+@media screen and (min-width: 900px){
+    nav ul{
+        flex-direction: row;
+    }
+}
+
+
+
+
+/* .class{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,4 +53,4 @@ nav li a{
     nav ul{
         flex-direction: row;
     }
-}
+} */
