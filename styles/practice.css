@@ -1,4 +1,24 @@
-.newstyle {
+#parent{
+    background-color: lightblue;
+    height: 800px;
+    position: relative;
+}
+
+#child{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+/*Parent is the image and the child is the text!
+JS Weekday
+if(weekday == 1 || weekday == 2) {
+let output = document.querySelector('Amsg')
+output.style.display="block"
+}
+*/
+
+/*.newstyle {
     background-color: red;
 }
 
@@ -12,7 +32,7 @@ li:first-child{
     nav ul{
         flex-direction: row;
     }
-}
+} */
 
 
 
