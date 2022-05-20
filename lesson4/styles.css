@@ -37,6 +37,9 @@ h1 {
 main p {
     font-family: 'Raleway';
 }
+header{
+    position: fixed;
+}
 @media screen and (min-width: 900px) {
     nav ul{
         flex-direction: row;
@@ -69,3 +72,33 @@ body{
     padding: 1rem;
     color: #090A0B;
 }
+
+
+/* Mobile */
+#grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    margin: 50px;
+    justify-items: center;
+    }
+    
+@media only screen and (min-width: 600px){
+        #grid {
+            grid-template-columns: 1fr 1fr;
+        }
+        .box:nth-of-type(3) {
+            grid-column: 1/2;
+            width: 50%;  
+        }
+    }
+    
+@media only screen and (min-width: 1000 px){
+        #grid {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .box:nth-of-type(3) {
+            grid-column: 1/3;
+            width: 100%;
+        }
+    }
