@@ -120,7 +120,8 @@ main{
 }
 
 footer{
-    padding-left: 200px;
+    text-align: center;
+    background-color: #F2CC8F;
 }
 .page{
     display:block;
