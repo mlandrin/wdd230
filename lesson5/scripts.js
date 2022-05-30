@@ -13,3 +13,8 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
 datefield.innerHTML = `<em>${fulldate}</em>`;
+
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('nav')
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);

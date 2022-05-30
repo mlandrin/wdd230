@@ -43,15 +43,23 @@
 
 //document.querySelector('#year')
 
-let button1 = document.querySelector('btn');
+//let button1 = document.querySelector('btn');
 
-function show(){
-button1.classList.add('newstyle');
-}
+//function show(){
+//button1.classList.add('newstyle');
+//}
 
-button1.addEventListener('click', show);
+//button1.addEventListener('click', show);
 
-let hambutton = document.querySelector('.ham');
-letmainnav = document.querySelector('nav');
+//let hambutton = document.querySelector('.ham');
+//letmainnav = document.querySelector('nav');
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle ('responsive')})
+//hambutton.addEventListener('click', () => {mainnav.classList.toggle ('responsive')})
+
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.navigation')
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+// To solve the mid resizing issue with responsive class on
+window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
