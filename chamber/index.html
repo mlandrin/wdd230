@@ -12,51 +12,84 @@
 </head>
 <body>
     <header>
+        
         <nav>
             <ul>
+                <li><a class="ham" href="#">&#9776;</a></li>
                 <li> <a href="#">Home</a></li>
                 <li> <a href="#">Discover</a></li>
                 <li> <a href="#">Directory</a></li>
                 <li> <a href="#">Join</a></li>
                 <li> <a href="#">Contact</a></li>
             </ul>
-        </nav>  
+        </nav>
+        <div class="top">
+            <img class = "logo" src = "../images/logo.webp" alt="Page AZ Commerce Logo">  
         <h1>Page Chamber of Commerce</h1>
-        <img class = "logo" src = "../images/logoW3.jpg" alt="Page AZ Commerce Logo">
+        <a href="https://www.facebook.com/" class="facebook"><img class = "iface" src = "https://byui-cit.github.io/wdd130/images/icons/color/facebook.png" alt="Social Media Facebook Icon"></a>
+        <a href="https://twitter.com/" class="twitter"><img class = "itwitter" src = "https://byui-cit.github.io/wdd130/images/icons/color/twitter.png" alt="Social Media Twitter Icon"></a>
+        </div>
         <div class="date"></div>
+        <p class="alert">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         <aside></aside>
     </header>
     <main>
         <div id="grid">
 
             <div id="hero">
-                <p>Hero with site name and call to action</p>
+                <picture>
+                <source media="(min-width: 601px) and (max-width: 1000px)" src="..images/large.jpg">
+                <source media="(min-width: 1000px)" src="..images/long.jpg">
+                <img class="page" src="../images/medium.jpg" alt="Page AZ Lake Powell 2018">
+                </picture>
+                <h3 id="photop">Welcome to Page</h3>
+                <button id="pagebtn" type="button">Join Page Chamber</button>
             </div>
             <div id="event">
                 <p>Event</p>
             </div>
             <div id="weather">
-                <p>Weather</p>
+                <h3>Weather</h3>
+                <span>Temperature:</span><span>83&deg;F</span>
+                <span>Mostly Sunny</span>
+                <span>Wind Speed:</span><span>12 mph</span>
+                <span>Wind Chill</span><span id="chill"></span>
             </div>
             <div id="news">
                 <p>News</p>
             </div>
+            <div id="join">
+                <p>Join</p>
+            </div>
             <div id="pane">
             <div id="spotlight1">
-                <p>Spotlight</p>
+                <p>Spotlight 1</p>
             </div>
             <div id="spotlight2">
-                <p>Spotlight</p>
+                <p>Spotlight 2</p>
+            </div>
+            <div id="spotlight3">
+                <p>Spotlight 3</p>
             </div>
         </div>
-        
+        </div>
     </main>
     <footer>
-        &copy; | Morgan Landrin | AZ |
+        <div class = chamber>
+            <img class = "footlogo" src = "../images/logo.webp" alt="Page AZ Commerce Logo">
+            <h3>Page Chamber of Commerce</h3>
+            <div id = "address">
+            <p>2854 Elk Road, Page, Arizona 86040</p>
+            </div>
+            <p></p>
+        </div>
+        &copy; | Page Chamber of Commerce | Morgan Landrin | AZ |
         <p>
             Last Modified: <span id = "lastmod"></span>
         </p>
     </footer>
     <script src="scripts.js" defer></script>
+    <script src="../scripts/windchill.js" defer></script>
 </body>
+
 </html>

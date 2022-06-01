@@ -1,11 +1,10 @@
 
-let currentdate1 = document.currentdate;
-document.querySelector('#date').textContent = currentdate1;
-console.log(currentdate1);
+let currentdate = document.lastModified;
+document.querySelector('#lastmod').textContent = currentdate;
+console.log(currentdate);
 
-//let currentdate1 = document.currentdate;
-//document.querySelector('#date').textContent = currentdate1;
-//console.log(currentdate1);
+
+
 
 const datefield = document.querySelector(".date");
 const now = new Date();
@@ -13,3 +12,15 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
 datefield.innerHTML = `<em>${fulldate}</em>`;
+
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('nav')
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+
+function alert(){
+   var meeting = document.getElementById('.alert').innerHTML;
+   if(weekday.getDay() == 2 || myDate.getDay() == 1) alert('.alert');
+   else(alert(""));
+}

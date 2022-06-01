@@ -19,9 +19,15 @@ const mainnav = document.querySelector('nav')
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
+function alert(){
+   var meeting = document.getElementById('.alert');
+   if(weekday.getDay() == 2 || myDate.getDay() == 1) alert('.alert');
+   else(alert());
+}
 
-const weekday = document.querySelector('.alert');
-if(weekday.getDay() == 2 || myDate.getDay() == 1) alert('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.');
+//const weekday = document.querySelector('.alert');
+//if(weekday.getDay() == 2 || myDate.getDay() == 1) alert('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.');
+//else(alert());
 
 //var weekday = new Date();
 //switch(date.getDay()){

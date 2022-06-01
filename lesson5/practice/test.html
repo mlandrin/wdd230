@@ -29,7 +29,7 @@
         <a href="https://twitter.com/" class="twitter"><img class = "itwitter" src = "https://byui-cit.github.io/wdd130/images/icons/color/twitter.png" alt="Social Media Twitter Icon"></a>
         </div>
         <div class="date"></div>
-        <div class="alert"></div>
+        <p class="alert">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         <aside></aside>
     </header>
     <main>
@@ -37,9 +37,9 @@
 
             <div id="hero">
                 <picture>
-                <source media="(max-width: 1000px)" src="../..images/large.jpg">
-                <source media="(max-width: 600px)" src="../..images/medium.jpg">
-                <img class="page" src="../../images/long.jpg" alt="Page AZ Lake Powell 2018">
+                <source media="(min-width: 601px) and (max-width: 1000px)" src="../..images/large.jpg">
+                <source media="(min-width: 1000px)" src="../..images/long.jpg">
+                <img class="page" src="../../images/medium.jpg" alt="Page AZ Lake Powell 2018">
                 </picture>
                 <h3 id="photop">Welcome to Page</h3>
                 <button id="pagebtn" type="button">Join Page Chamber</button>
@@ -48,7 +48,11 @@
                 <p>Event</p>
             </div>
             <div id="weather">
-                <p>Weather</p>
+                <h3>Weather</h3>
+                <span>Temperature:</span><span>83&deg;F</span>
+                <span>Mostly Sunny</span>
+                <span>Wind Speed:</span><span>12 mph</span>
+                <span>Wind Chill</span><span id="chill"></span>
             </div>
             <div id="news">
                 <p>News</p>
