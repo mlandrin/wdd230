@@ -20,7 +20,7 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 
 function alert(){
-   var meeting = document.getElementById('.alert').innerHTML;
+   var weekday = document.getElementById('.alert').innerHTML;
    if(weekday.getDay() == 2 || myDate.getDay() == 1) alert('.alert');
    else(alert(""));
 }

@@ -59,12 +59,13 @@ h1 {
 }
 .logo{
     display:inline-flex;
-    /*float:left;
+    /*float:inline-start;
     float: top;
     margin-left: 50px;*/
     width: auto;
     height: 80px;
     border: 2px solid black;
+    
 }
 .date{
     font-weight: bold;
